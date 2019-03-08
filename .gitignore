@@ -11,3 +11,8 @@
 /FitnessTrackerApplication/bin/Debug
 /FitnessTracker.Model/obj/Debug/netstandard2.0
 /FitnessTracker.Model/obj
+/FitnessTrackerApplication/FitnessTracker.Test/bin/Debug
+/FitnessTrackerApplication/FitnessTracker.Test/obj/Debug
+/FitnessTrackerApplication/packages
+/FitnessTrackerApplication/FodyWeavers.xsd
+/FitnessTrackerApplication/FodyWeavers.xml
