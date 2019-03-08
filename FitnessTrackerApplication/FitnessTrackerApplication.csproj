@@ -135,6 +135,16 @@
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="FitnessTracker.Model\FitnessTracker.Model.csproj">
+      <Project>{b80c5a4a-679f-4db7-bb5d-dbb56a9c64d4}</Project>
+      <Name>FitnessTracker.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="FitnessTracker.Service\FitnessTracker.Service.csproj">
+      <Project>{f5ebb003-4a8a-47d0-b652-91375f00ecc1}</Project>
+      <Name>FitnessTracker.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

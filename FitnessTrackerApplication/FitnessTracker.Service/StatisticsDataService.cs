@@ -22,6 +22,13 @@ namespace FitnessTracker.Service
             return null;
         }
     }
+    public class FakeFitbitStatisticsDataService : IFitbitStatisticsDataService
+    {
+        public FitnessStatistics GetStatistics(Person person)
+        {
+            return null;
+        }
+    }
 
 
     public interface IAppleWatchStatisticsDataService : IStatisticsDataService
