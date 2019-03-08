@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace FitnessTracker.Service
 {
+    public interface IServiceBase
+    {
+
+    }
+
     public class ServiceBase
     {
     }
