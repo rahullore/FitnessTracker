@@ -9,7 +9,7 @@ using System.Windows;
 namespace FitnessTrackerApplication
 {
     /// <summary>
-    /// Interaction logic for App.xaml asdadasd
+    /// Interaction logic for App.xaml 
     /// </summary>
     public partial class App : Application
     {

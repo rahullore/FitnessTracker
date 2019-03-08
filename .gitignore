@@ -4,3 +4,10 @@
 
 /FitnessTrackerApplication/.vs/FitnessTrackerApplication/v15
 /FitnessTrackerApplication/obj/Debug
+/FitnessTrackerApplication/FitnessTracker.Service/bin/Debug
+/FitnessTrackerApplication/FitnessTracker.Service/obj/Debug
+/FitnessTrackerApplication/FitnessTracker.Model/bin/Debug
+/FitnessTrackerApplication/FitnessTracker.Model/obj/Debug
+/FitnessTrackerApplication/bin/Debug
+/FitnessTracker.Model/obj/Debug/netstandard2.0
+/FitnessTracker.Model/obj
