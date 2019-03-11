@@ -9,12 +9,8 @@ namespace FitnessTracker.Model
     public class FitnessStatistics
     {
         public DateTimeOffset StatisticsDate { get; set; }
-
         public int TotalSteps { get; set; }
-
         public int Calories { get; set; }
-
         public int ActiveMinutes { get; set; }
-
     }
 }

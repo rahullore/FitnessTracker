@@ -74,6 +74,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppleWatch\AppleWatchStatisticsDataService.cs" />
+    <Compile Include="Fitbit\FitbitStatisticsDataService.cs" />
+    <Compile Include="Garmin\GarminStatisticsDataService.cs" />
+    <Compile Include="IServiceBase.cs" />
     <Compile Include="StatisticsDataService.cs" />
     <Compile Include="ServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,6 +91,7 @@
       <Name>FitnessTracker.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Refit.4.6.90\build\net461\refit.targets" Condition="Exists('..\packages\Refit.4.6.90\build\net461\refit.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,4 +1,5 @@
 ﻿using FitnessTracker.Service;
+using FitnessTracker.Service.Fitbit;
 using Splat;
 using System;
 using System.Collections.Generic;
@@ -25,11 +26,7 @@ namespace FitnessTrackerApplication
         public MainWindow()
         {
             InitializeComponent();
-
-            var v = Locator.Current.GetService<IFitbitStatisticsDataService>();
-
-            v.GetStatistics();
-            
+            var v = Locator.Current.GetService<IFitbitStatisticsDataService>();            
         }
     }
 }

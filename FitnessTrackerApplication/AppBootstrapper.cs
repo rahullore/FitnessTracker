@@ -1,4 +1,7 @@
 ﻿using FitnessTracker.Service;
+using FitnessTracker.Service.AppleWatch;
+using FitnessTracker.Service.Fitbit;
+using FitnessTracker.Service.Garmin;
 using Splat;
 using System;
 using System.Collections.Generic;
@@ -27,7 +30,9 @@ namespace FitnessTrackerApplication
 
         public void RegisterServices()
         {
-            Locator.CurrentMutable.RegisterLazySingleton<IFitbitStatisticsDataService>(() => new FakeFitbitStatisticsDataService());
+            Locator.CurrentMutable.RegisterConstant(new FitbitStatisticsDataService(),typeof(IFitbitStatisticsDataService));
+            Locator.CurrentMutable.RegisterConstant(new AppleWatchStatisticsDataService(), typeof(IAppleWatchStatisticsDataService));
+            Locator.CurrentMutable.RegisterConstant(new GarminStatisticsDataService(), typeof(IGarminStatisticsDataService));
         }
     }
 }
