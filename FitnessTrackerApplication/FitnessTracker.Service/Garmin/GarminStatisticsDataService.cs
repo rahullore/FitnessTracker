@@ -12,9 +12,10 @@ namespace FitnessTracker.Service.Garmin
 
     public class GarminStatisticsDataService : IGarminStatisticsDataService
     {
-        public FitnessStatistics GetStatistics(Person person)
+   
+        IObservable<FitnessStatistics> IStatisticsDataService.GetStatistics(Person person)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }

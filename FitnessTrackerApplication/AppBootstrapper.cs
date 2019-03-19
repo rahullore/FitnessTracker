@@ -1,13 +1,7 @@
-﻿using FitnessTracker.Service;
-using FitnessTracker.Service.AppleWatch;
+﻿using FitnessTracker.Service.AppleWatch;
 using FitnessTracker.Service.Fitbit;
 using FitnessTracker.Service.Garmin;
 using Splat;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitnessTrackerApplication
 {

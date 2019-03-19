@@ -9,6 +9,6 @@ namespace FitnessTracker.Service
 {
     public interface IStatisticsDataService: IServiceBase
     {
-        FitnessStatistics GetStatistics(Person person);
+        IObservable<FitnessStatistics> GetStatistics(Person person);
     }
 }

@@ -12,9 +12,9 @@ namespace FitnessTracker.Service.Fitbit
 
     public class FitbitStatisticsDataService : IFitbitStatisticsDataService
     {
-        public FitnessStatistics GetStatistics(Person person)
+        IObservable<FitnessStatistics> IStatisticsDataService.GetStatistics(Person person)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }

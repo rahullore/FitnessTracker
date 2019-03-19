@@ -74,10 +74,19 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiError.cs" />
     <Compile Include="AppleWatch\AppleWatchStatisticsDataService.cs" />
+    <Compile Include="EmptyDateToMinDateConverter.cs" />
+    <Compile Include="Fitbit\FitbitException.cs" />
+    <Compile Include="Fitbit\FitbitParseException.cs" />
     <Compile Include="Fitbit\FitbitStatisticsDataService.cs" />
+    <Compile Include="Fitbit\OAuth2\FitbitAppCredentials.cs" />
+    <Compile Include="Fitbit\OAuth2\OAuth2AccessToken.cs" />
+    <Compile Include="Fitbit\OAuth2\OAuth2Helper.cs" />
     <Compile Include="Garmin\GarminStatisticsDataService.cs" />
     <Compile Include="IServiceBase.cs" />
+    <Compile Include="JsonDotNetSerializer.cs" />
+    <Compile Include="PersonServices\PersonService.cs" />
     <Compile Include="StatisticsDataService.cs" />
     <Compile Include="ServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

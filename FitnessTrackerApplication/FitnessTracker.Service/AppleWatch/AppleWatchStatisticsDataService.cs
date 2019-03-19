@@ -12,7 +12,7 @@ namespace FitnessTracker.Service.AppleWatch
 
     public class AppleWatchStatisticsDataService : IAppleWatchStatisticsDataService
     {
-        public FitnessStatistics GetStatistics(Person person)
+        public IObservable<FitnessStatistics> GetStatistics(Person person)
         {
             return null;
         }
